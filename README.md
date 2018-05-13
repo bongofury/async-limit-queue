@@ -4,7 +4,7 @@ A little helper to create a queue of async function with limited concurrency.
 ## Description
 I use this module when I have a bunch async function to be executed and want the number of concurrently executed function to be controlled.
 
-This module export a function that creates an instance of queue with the given concurrency limit.
+This module exports a function that creates an instance of queue with the given concurrency limit.
 
 Use the `push` method to add (one by one) async functions to the queue. This method returns a `Promise` that is resolved when the passed async function is executed.
 
@@ -17,7 +17,7 @@ First import the module and create a queue...
 ```javascript
 import createQueue from 'async-limit-queue';
 
-// this creates with concurrency limit = 7
+// this creates a queue with concurrency limit = 7
 const queue = createQueue(7);
 ```
 
