@@ -1,0 +1,34 @@
+{
+  "name": "async-limit-queue",
+  "version": "1.0.0",
+  "description": "A little helper to create a queue of async function with limited concurrency.",
+  "main": "dist/",
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bongofury/async-limit-queue.git"
+  },
+  "keywords": [
+    "async",
+    "queue",
+    "limit",
+    "concurrency"
+  ],
+  "author": "Edoardo Bianchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bongofury/async-limit-queue/issues"
+  },
+  "homepage": "https://github.com/bongofury/async-limit-queue#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
