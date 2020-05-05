@@ -1,10 +1,10 @@
 {
   "name": "async-limit-queue",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "A little helper to create a queue of async function with limited concurrency.",
   "main": "dist/",
   "scripts": {
-    "build": "babel index.js -d dist",
+    "build": "./node_modules/.bin/babel index.js --out-dir dist",
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,8 +25,9 @@
   },
   "homepage": "https://github.com/bongofury/async-limit-queue#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
