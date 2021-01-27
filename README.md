@@ -2,7 +2,7 @@
 Dependencies-free little helper to create a queue of async function with limited concurrency.
 
 ## Description
-Use this module when you have a bunch async function to be executed and want to limit the number of concurrently executed function.
+Use this module when you have a bunch async function to be executed and want to limit the number of concurrently executed functions.
 
 This module exports a function that creates an instance of queue with the given concurrency limit.
 
