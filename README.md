@@ -10,6 +10,14 @@ Use the `push` method to add (one by one) async functions to the queue. This met
 
 Items in the queue are processed _FIFO_.
 
+## Get it
+
+```sh
+npm i async-limit-queue
+
+yarn add async-limit-queue
+```
+
 ## Usage
 
 First import the module and create a queue...
