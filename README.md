@@ -1,5 +1,5 @@
 # async-limit-queue
-No-dependency little helper to create a queue of async function with limited concurrency.
+Dependencies-free little helper to create a queue of async function with limited concurrency.
 
 ## Description
 Use this module when you have a bunch async function to be executed and want to limit the number of concurrently executed function.
